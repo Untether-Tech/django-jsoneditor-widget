@@ -8,10 +8,10 @@ with open('README.md', 'r') as f:
 setup(
     name='django-jsoneditor-widget',
     license='MIT',
-    version=os.environ['CIRCLE_TAG'],
-    author='Arthur Chang',
-    author_email='arthurc0102@gmail.com',
-    url='https://github.com/arthurc0102/django-jsoneditor-widget',
+    version='0.1.0',
+    author='Charanjit Singh',
+    author_email='charanjitdotsingh@gmail.com',
+    url='https://github.com/Untether-Tech/django-jsoneditor-widget',
     packages=['jsoneditor'],
     package_data={
         'jsoneditor': [
