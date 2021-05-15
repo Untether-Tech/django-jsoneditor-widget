@@ -1,5 +1,5 @@
 from django.contrib.admin import ModelAdmin
-from django.db.models import JSONField
+from django.contrib.postgres.fields import JSONField
 
 from .forms import JSONEditor
 
